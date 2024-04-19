@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blue;
+    font-family: sans-serif;
+}
+.background{
+    margin-top: 1px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h2{
+    background-color: aqua;
+    width: 400px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#container{
+    /* border: 2px solid red; */
+    margin-top: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    background-color: aqua;
+    width: 400px;
+    font-weight: bolder;
+    text-align: center;
+}
+h1:hover{
+   text-decoration-line: 800px;
+}
+fieldset{
+    margin-top: 1rem;
+    text-align: center;
+    border: solid 3px darkorange;
+    border-radius: 25px;
+    padding: 1rem;
+}
+legend{
+    text-align: center;
+    border: none;
+    padding: 2px;
+    margin: 0, 2rem;
+   
+    background-color: darkorange;
+    width: 10vw;
+    border-radius: 25px;
+}
+button{
+    border: none;
+    margin: 0, 1rem;
+    background-color: darkorange;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#text{
+  /* margin-top: 1rem; */
+  width: 600px;
+  height: 400px;
+  font-size: xx-large;
+  color: black;
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+  /* border-radius: 20px; */
+  border: 3px solid black;
+  background-color: cyan
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+    body {
+        background-color: lightblue; 
+    }
+    
+    h2, h1 {
+        width: 90%; 
+        font-size: 1.5rem; 
+    }
+
+    .background {
+        padding: 1rem; 
+    }
+
+    #container {
+        margin-top: 1rem; 
+    }
+
+    fieldset {
+        border-width: 2px; 
+    }
+
+    #text {
+        width: 90%; 
+        height: 300px; 
+        font-size: medium; 
+    }
+}
